@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 api_key = st.secrets("API_KEY")
 
-genai.configure(api_key="AIzaSyADzjCSDDmcDAYzVJu01hHsUcClQR9pThE")
+genai.configure(api_key=api_key)
 
 
 try:
